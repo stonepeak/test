@@ -22,3 +22,9 @@ for var i in 1...10{
 for ch in "hello".characters{
     print(ch)
 }
+import Cocoa
+
+func add(x:Int,_ y:Int,_ z:Int){
+    print("\(x)+\(y)+\(z)=\(x+y+z)")
+}
+add(10,20,30)
